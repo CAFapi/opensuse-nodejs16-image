@@ -1,6 +1,6 @@
-# openSUSE and NodeJS10 image
+# openSUSE and NodeJS16 image
 
-This project builds an openSUSE-based image which includes NodeJS version 10 and is based off the [OpenSUSE Base Image](https://github.com/CAFapi/opensuse-base-image). It can be used as a base image by projects which require NodeJS10.
+This project builds an openSUSE-based image which includes NodeJS version 16 and is based off the [OpenSUSE Base Image](https://github.com/CAFapi/opensuse-base-image). It can be used as a base image by projects which require NodeJS16.
 
 ### Tini
 [Tini](https://github.com/krallin/tini) is pre-installed in the container.  If the image entrypoint is not overwritten then it will be automatically used.
