@@ -1,5 +1,5 @@
 #
-# Copyright 2018-2022 Micro Focus or one of its affiliates.
+# Copyright 2022 Micro Focus or one of its affiliates.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,5 +22,5 @@ FROM ${DOCKER_HUB_PUBLIC}/cafapi/opensuse-base:2
 # Update the OS packages and install NodeJS
 RUN zypper -n refresh && \
     zypper -n update && \
-    zypper -n install nodejs10 npm && \
+    zypper -n install nodejs16 npm && \
     zypper -n clean --all
